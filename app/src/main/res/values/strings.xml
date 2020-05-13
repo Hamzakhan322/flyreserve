@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">flyreserve</string>
+    <string name="eapp_name">eFlyReserve</string>
+    <string name="enter_user_name">User Name</string>
+    <string name="enter_password">Password</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="enter_your_name">Your Name</string>
+    <string name="confirm_password">Confirm Password</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="welocime_to_the_e_airplane_ticket_booking_app">Welcome to the eFlyreserve</string>
+    <string name="PIA">Pk 702 is operating for facilitates the passengers who travels from Manchester to Islamabad or from Islamabad to Manchester.</string>
+    <string name="Emirates">77W is operating for facilitates the passengers who travels from Dubai to Mumbai.</string>
+    <string name="have_account">have account?</string>
+</resources>

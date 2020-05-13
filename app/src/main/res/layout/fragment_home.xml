@@ -1,0 +1,86 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    tools:context="fragments.Home">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/NSV"
+        android:fillViewport="false"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/TextColorNavyBlue">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/welcomeTV"
+                android:text="@string/eapp_name"
+                android:textSize="25sp"
+                android:textColor="@color/text2"
+                android:textStyle="bold|italic"
+                android:gravity="center"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/button_bg"
+                />
+
+            <ImageView
+                android:id="@+id/oneIV"
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:layout_below="@+id/welcomeTV"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/TextColorBlack"
+                android:src="@drawable/local" />
+
+            <TextView
+                android:id="@+id/oneTV"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_below="@+id/welcomeTV"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="11dp"
+                android:layout_toRightOf="@+id/oneIV"
+                android:background="@color/TextColorDarkGreen"
+                android:gravity="center"
+                android:text="@string/Emirates"
+                android:textColor="@color/TextColorWhite"
+                android:textSize="10sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/twoTV"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_below="@+id/oneIV"
+                android:layout_marginLeft="04dp"
+                android:layout_marginTop="11dp"
+                android:layout_toRightOf="@+id/oneIV"
+                android:gravity="center"
+                android:background="@color/TextColorDarkGreen"
+                android:text="@string/PIA"
+                android:textColor="@color/TextColorWhite"
+                android:textSize="10sp"
+                android:textStyle="italic" />
+
+            <ImageView
+                android:id="@+id/twoIV"
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:layout_below="@+id/oneTV"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/TextColorBlack"
+                android:src="@drawable/pia" />
+        </RelativeLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</FrameLayout>

@@ -1,0 +1,68 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fragments.Profile">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/TextColorNavyBlue">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/nameET"
+            android:text="Name"
+            android:textStyle="italic"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:layout_margin="15dp"
+            android:background="@color/TextColorWhite"
+            android:textColor="@color/TextColorBlack"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/chngPassET"
+            android:layout_below="@+id/nameET"
+            android:text="Change Password"
+            android:textStyle="italic"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:layout_margin="15dp"
+            android:background="@color/TextColorWhite"
+            android:textColor="@color/TextColorBlack"
+            />
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:id="@+id/bookdBTN"
+            android:layout_below="@+id/chngPassET"
+            android:text="Booked Seats"
+            android:textStyle="italic"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            android:layout_margin="15dp"
+            android:background="@drawable/button_bg"
+            android:textColor="@color/text2"
+            />
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:id="@+id/logoutBTN"
+            android:layout_below="@+id/bookdBTN"
+            android:text="Logout"
+            android:textStyle="italic"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            android:layout_margin="15dp"
+            android:background="@drawable/buttom_bgyellow"
+            android:textColor="@color/text2"
+            />
+    </RelativeLayout>
+
+</FrameLayout>
